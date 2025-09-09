@@ -1,1 +1,117 @@
-# my-first-form-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>User Registration Form</h1>
+  <form action="" method="post">
+    <fieldset>
+      <legend>personal information</legend>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" ><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" ><br><br>
+      <label for="DOB">Date of birth</label>
+      <input type="date" id="DOB"><br><br>
+      <label for="age">Age</label>
+      <input type="number" id="age" ><br><br>
+      <label for="gender">Gender:</label><br>
+      <input type="radio" id="gender" value="gender" name="gender">
+      <label for="male">Male</label><br>
+       <input type="radio" id="gender" value="gender" name="gender">
+      <label for="male">Male</label><br><br>
+      <label for="photo">Profile Photo:</label>
+      <input type="file" id="photo" required><br><br>
+      </fieldset>
+      <fieldset>
+        <legend>Contact & Address information</legend>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email"><br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" ><br><br>
+        <label for="pwebsite">Personal website</label>
+        <input type="url" id="pwebsite" placeholder="http://example.com"><br><br>
+        <label for="adress">Street Address:</label>
+        <input type="text" id="adress" placeholder="address"><br><br>
+        <label for="city">City:</label>
+        <input type="text" id="city" ><br><br>
+        <label for="country">Country:</label>
+        <input type="" id="country" ><br><br>
+        <label for="postalcode">ZIP/Postal Code:</label>
+        <input type="text" id="postalcode" ><br><br>
+        <Label for="contacttime">Preferred Contact Time:</Label>
+        <input type="time" id="contacttime" ><br><br>
+      </fieldset>
+      <fieldset>
+        <legend>Preferences & Interests</legend>
+        <label for="color">Favorite color:</label>
+        <input type="color" id="color"  ><br><br>
+        <label for="level">Experience Level(1-10):</label>
+        <input type="range" id="level" min="1" max="10" ><br><br>
+        <label for="bd month">Birth Month:</label>
+        <input type="month" id="bd month" ><br><br>
+        <label for="week">Available week:</label>
+        <input type="week" id="week" ><br><br>
+        <label for="keywords">Search Keywords:</label>
+        <input type="search" id="keywords" placeholder="Enter keywords..."><br><br>
+        <label for="intrests">Interest:(Select all that apply)</label><br>
+        <input type="checkbox" id="intrests" value="sports">
+        <label for="sports">Technology</label><br>
+        <input type="checkbox" id="intrests" value="music">
+        <label for="music">Sports</label><br>
+        <input type="checkbox" id="intrests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="intrests" value="travel">
+        <label for="travel">Travel</label><br>
+        <input type="checkbox" id="intrests" value="reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="intrests" value="Cooking">
+        <label for="Cooking">Cooking</label><br><br>
+        <label for="education">Education Level:</label>
+        <select id="education">
+          <option value="highschool">High School</option>
+          <option value="bachelor">Bachelor's Degree</option>
+          <option value="master">Master's Degree</option>
+          <option value="phd">PhD</option>
+          <option value="other">Other</option>
+        </select><br><br>
+        <label for="password">Create Password:</label>
+        <input type="password" id="password" ><br><br>
+        <label for="cpassword">Confirm Password:</label>
+        <input type="password" id="cpassword" ><br><br>
+      </fieldset>
+      <fieldset>
+        <legend>Feedback & Additional Information</legend> 
+        <label for="about">Tell us about yourself:</label><br>
+        <textarea id="about" rows="4" placeholder="Write something about yourself..."></textarea><br><br>
+        <label for="suggestions">Suggestions for improvement:</label><br>
+        <textarea id="suggestions" rows="4" placeholder="Your suggestions..."></textarea><br><br>     
+        <label for="regtime">Registration Date & Time:</label>
+        <input type="datetime-local" id="regtime" ><br><br>
+        <Label for="about us">How did you hear about us?</Label>
+        <select  id="about us">
+          <option value="social media">Social Media</option>
+          <option value="friend">Friend</option>
+          <option value="advertisement">Advertisement</option>
+          <option value="search engine">Search Engine</option>
+          <option value="other">Other</option>
+        </select><br><br>
+        <label for="resume">Upload Resume(optional):</label>
+        <input type="file" id="resume" accept=".pdf,.doc,.docx"><br><br>
+        <input type="checkbox" id="newsletter" value="subscribe">
+        <label for="newsletter">Subscribe to our newsletter</label><br>
+        <br>
+        <input type="checkbox" id="terms" value="subscribe">
+        <label for="terms">I agree to the terms and conditions</label><br><br>
+        <input type="checkbox" id="policy" value="subscribe">
+        <label for="policy">I agree to the privacy policy</label><br><br>
+      </fieldset><br>
+      <input type="submit" value="register">
+      <input type="reset" value="Clear Form">
+    
+  </form>
+</body>
+</html>
